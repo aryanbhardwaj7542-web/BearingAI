@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+
+# Raw MATLAB dataset files
+*.mat
+
+# Local generated model and data
+bearing_features.csv
+bearing_model.joblib
+model_comparison.csv
+
+# Local evaluation images
+random_forest_confusion_matrix.png
+svm_confusion_matrix.png
